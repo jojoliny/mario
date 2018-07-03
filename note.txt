@@ -1,0 +1,19 @@
+创建障碍物的单例（恶汉，懒汉）：不能给别人new
+懒汉不太懂？
+集合泛型，存障碍物父类Entity
+
+撞击 Rectangle 相交即撞击intersects
+Entity继承Rectangle
+
+解决障碍物正好相交问题：预判断
+
+判断是个金币 instanceof 类
+
+testMap遍历时charAt(j)
+"a".equals
+'a'==
+
+1为砖头，2为金币 3为水管 4.金币箱 5.河流
+
+
+问题：：同时碰到金币和水管时会一起消失
